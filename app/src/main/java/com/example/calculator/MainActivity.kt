@@ -77,6 +77,7 @@ class MainActivity : AppCompatActivity() {
         btnDivision.setOnClickListener {appendOnExpression("/", false)}
         btnLeftPar.setOnClickListener {appendOnExpression("(", false)}
         btnRightPar.setOnClickListener {appendOnExpression(")", false)}
+        btnDecimal.setOnClickListener {appendOnExpression(".", false)}
 
         btnClear.setOnClickListener {
             txtFormula.text = ""
